@@ -61,10 +61,13 @@ class Grades{
     }
         
     void displayResult(){
-        cout<<"Marks (Subject Wise)"<<endl;
+        cout<<endl;
+        cout<<"Result "<<endl;
+        cout<<"Name : "<<getName()<<endl;
         getMarks();
         cout<<"Average Marks : "<<getAverage();
         cout<<endl<<"Grade : "<<getGrade();
+        cout<<endl<<"------Done-------"<<endl;
     }
 
 };
